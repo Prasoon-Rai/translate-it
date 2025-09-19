@@ -2,7 +2,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import Button from "./button";
-import OutputDisplay from "./outputDisplay";
+import Events2 from "./events2";
 import './events.css'
 
 const Events = () => {
@@ -34,7 +34,7 @@ const Events = () => {
           </div>
         </form>
       </div>
-      <OutputDisplay content="" placeholder="Translation will appear here..." />
+      <Events2 content="" placeholder="Translation will appear here..." />
     </div>
   );
 };

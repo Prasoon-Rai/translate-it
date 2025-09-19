@@ -1,14 +1,14 @@
 'use client';
 import React from "react";
-import './outputDisplay.css'
+import './events2.css'
 
-const OutputDisplay = ({ content = "", placeholder = "Translation will appear here..." }) => {
+const Events2 = (props) => {
   return (
     <div className="output-container">
       <div className="output-wrapper">
         <div className="output-area">
           <div className="output-content">
-            {content || <span className="placeholder-text">{placeholder}</span>}
+            {props.content}
           </div>
         </div>
       </div>
@@ -16,4 +16,4 @@ const OutputDisplay = ({ content = "", placeholder = "Translation will appear he
   );
 };
 
-export default OutputDisplay;
+export default Events2;

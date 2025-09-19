@@ -21,7 +21,7 @@
   padding: 40px;
   border: 2px solid #e0e0e0;
   border-radius: 12px;
-  font-size: 16px;
+  font-size: 26px;
   font-family: var(--font-rethink-sans);
   background-color: white;
   line-height: 1.5;
@@ -30,9 +30,4 @@
   scrollbar-width: thin;
   white-space: pre-wrap;
   word-wrap: break-word;
-}
-
-.placeholder-text {
-  color: #999;
-  font-style: italic;
 }
