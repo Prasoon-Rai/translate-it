@@ -1,0 +1,29 @@
+.btn {
+  font-family: var(--font-rethink-sans);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 10px 15px;
+  border-radius: 50px;
+  background: #8a8a8a;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background: #7a7a7a;
+}
+
+.btn img {
+  width: 25px;
+  height: 25px;
+}
+
+.btn span {
+  white-space: nowrap;
+}
