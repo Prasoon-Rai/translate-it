@@ -21,7 +21,7 @@ const Events = () => {
           <div className="textarea-container">
             <textarea
               className="textarea-field"
-              placeholder=""
+              placeholder="Enter text to translate..."
               rows={8}
               {...register("text", { required: true })}
             />
@@ -34,7 +34,7 @@ const Events = () => {
           </div>
         </form>
       </div>
-      <Events2 content="" placeholder="Translation will appear here..." />
+      <Events2 content=""/>
     </div>
   );
 };

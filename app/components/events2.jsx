@@ -8,7 +8,7 @@ const Events2 = (props) => {
       <div className="output-wrapper">
         <div className="output-area">
           <div className="output-content">
-            {props.content}
+            <span>{props.content}</span>
           </div>
         </div>
       </div>
